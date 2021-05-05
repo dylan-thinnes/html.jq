@@ -214,8 +214,8 @@ catalogue, with prices and ratings!
 import "./html" as H {};
 import "./star-wars-lego-sets" as $sets {}; # import the star-wars-lego-sets blob
 
-# convenience functions for tr, td, table, img nodegen
-def td(attrs; filter):    H::node("td";    attrs; filter);
+# convenience function for tr nodegen
+def td(attrs; filter): H::node("td"; attrs; filter);
 
 def lego_set_to_row:
     H::node("tr"; {};
