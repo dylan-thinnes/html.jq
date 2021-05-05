@@ -1,7 +1,7 @@
 # html.jq
 
-A simple (&lt;40 line) library to simplify generating HTML from JSON using the
-JQ programming language.
+A simple (&lt;40 line) library to generate HTML from JSON using the JQ
+programming language.
 
 ## Basic Usage
 
